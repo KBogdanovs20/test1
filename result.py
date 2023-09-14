@@ -2,6 +2,8 @@ from openpyxl import Workbook, load_workbook
 wb=load_workbook('tests/test1.xlsx')
 ws=wb.active
 total=0
+
+
 #write your code here
 max_row = ws.max_row
 max_salary = 3000
